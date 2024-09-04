@@ -11,6 +11,11 @@ module.exports = {
         border2: '#999999',
         border1: '#FFAA00',
         border3: '#BA4615',
+        underline: '#3B5987',
+        text: '#2C2C2C',
+      },
+      fontWeight:{
+        'bold-500': 500,
       },
       borderRadius: {
         '5xl': '2.5rem', 

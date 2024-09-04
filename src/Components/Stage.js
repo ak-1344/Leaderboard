@@ -4,7 +4,7 @@ import crown from '../Media/crown.png'
 
 const Stage = ({ data }) => {
   return (
-    <div className="stage flex px-40 box-content space-x-0.5"> {/* Main row container with space between boxes */}
+    <div className="stage flex px-20  box-content space-x-0.5"> {/* Main row container with space between boxes */}
 
       {/* First Box (Column) */}
       <div className="flex flex-col min-h-96 min-w-36 box-content relative"> {/* Container for first column */}
