@@ -8,6 +8,18 @@ module.exports = {
       colors: {
         bgMain: '#E7F0FE',
         bgBody: '#3B5987',
+        border2: '#999999',
+        border1: '#FFAA00',
+        border3: '#BA4615',
+      },
+      borderRadius: {
+        '5xl': '2.5rem', 
+      },
+      height: {
+        '2/5': '40%',
+      },
+      fontFamily: {
+        inter: ['Inter', 'sans-serif'],
       },
     },
   },

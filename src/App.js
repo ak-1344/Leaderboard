@@ -7,7 +7,7 @@ import Body from './Components/Body';
 
 function App() {
   return (
-    <div className='bg-bgMain min-h-screen'>
+    <div className='bg-bgMain h-screen max-h-screen overflow-hidden'>
       <Header />
       <Navbar />
       <Body />

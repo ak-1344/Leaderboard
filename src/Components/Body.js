@@ -14,10 +14,12 @@ const data = [
 ];
 function Body() {
   return (
-    <div className="p-8">
+    <div className="p-8 h-[400px] w-full overflow-hidden">
       <h2 className="text-2xl font-semibold mb-4">Body Section</h2>
-      <Stage data={data} />
+      <div className="w-full overflow-y-hidden flex-row flex justify-evenly ">
+      <Stage data={data}  />
       <Table />
+      </div>
     </div>
   );
 }
