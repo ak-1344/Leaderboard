@@ -6,12 +6,11 @@ import Body from './Components/Body';
 
 function App() {
   return (
-    <div className='bg-bgMain min-h-screen text-text overflow-hidden flex flex-col'>
+    <div className='bg-bgMain min-h-screen text-text overflow-hidden p-0 m-0 flex flex-col'>
       <Header />
       <Navbar />
-      <main className='flex-1'>
-        <Body />
-      </main>
+      <div className="md:h-20 h-0"></div>
+      <Body />
     </div>
   );
 }

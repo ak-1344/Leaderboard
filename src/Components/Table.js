@@ -5,8 +5,8 @@ import demotion from '../Media/demotion.png';
 
 const Table = ({ data }) => {
   return (
-    <div className='flex'>
-      <div className='content bg-bgBody rounded-5xl min-w-80 p-5 pr-5 flex flex-col space-y-3 items-stretch justify-evenly text-white'>
+    <div className='flex w-full'>
+      <div className='content bg-bgBody rounded-5xl w-full md:w-fit h-full md:min-w-80 p-5 md:pr-5 flex flex-col space-y-3 items-stretch justify-evenly text-white'>
           <div className='row flex flex-row w-inherit items-center justify-between'>
             <div className='rank border-4 border-white rounded-full p-2 px-2.5 translate-x-3 text-xl font-inter font-bold'>
               <pre className='font-inter'>

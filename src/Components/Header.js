@@ -10,8 +10,8 @@ function Header() {
       <button href='/' className='cursor-pointer'>
         <img src={back} alt='Back to the previous page' className='scale-50' />
       </button>
-
-      <div className="text-2xl font-bold text-center font-inter">
+      
+      <div className="text-2xl translate-x-4 font-bold text-center font-inter">
         Leaderboard
       </div>
 

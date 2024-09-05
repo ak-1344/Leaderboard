@@ -7,23 +7,29 @@ import secondImage from '../Media/2nd.png';
 import thirdImage from '../Media/3rd.png';
 
 
-const data = [
+const non_sorted_data = [
   { name: "Eiden", score: 2430, image: firstImage },
-  { name: "Jackson", score: 1847, image: secondImage },
-  { name: "Emma Aria", score: 1674, image: thirdImage },
-  { name: "Sebastian", score: 1124, image: thirdImage },
   { name: "Jason", score: 875, image: thirdImage },
   { name: "Netalie", score: 774, image: thirdImage },
-  { name: "Serenity", score: 723, image: thirdImage },
+  { name: "Emma Aria", score: 1674, image: thirdImage },
+  { name: "Sebastian", score: 1124, image: thirdImage },
+  { name: "Jackson", score: 1847, image: secondImage },
   { name: "Hannah", score: 559, image: thirdImage },
+  { name: "Serenity", score: 723, image: thirdImage },
 ];
+
+const data = non_sorted_data.sort((a, b) => b.score - a.score);
+
 function Body() {
   return (
-    <div className="p-8 h-full w-full overflow-hidden">
-      <h2 className="text-2xl font-semibold mb-4">Body Section</h2>
-      <div className="w-full flex-row flex items-center justify-evenly">
-      <Stage data={data}  />
-      <Table data={data} />
+    <div className="md:p-8 md:h-full min-w-screen lg:overflow-x-hidden md:overflow-auto md:scrollbar-hide ">
+      <div className="w-full flex md:flex-row flex-col items-center md:space-x-8 md:px-2 md:justify-evenly justify-center">
+        <div className='min-w-fit'>
+          <Stage data={data} />
+        </div>
+        <div className='w-full md:w-fit'>
+          <Table data={data} />
+        </div>
       </div>
     </div>
   );
