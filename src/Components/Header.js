@@ -6,7 +6,7 @@ import Menu from '../Media/Menu.png'
 function Header() {
   return (
 
-    <div className="bg-bgMain flex p-4 justify-between items-center">
+    <div className="bg-bgMain flex p-4 justify-between text-text items-center">
       <button href='/' className='cursor-pointer'>
         <img src={back} alt='Back to the previous page' className='scale-50' />
       </button>

@@ -9,7 +9,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="p-4 text-black font-inter flex flex-row justify-around">
+    <nav className="p-4 font-inter text-text flex flex-row justify-around">
       <div></div>
       <ul className="flex flex-row space-x-28 bg-white border-none rounded-md px-8 py-3 text-sm font-bold-500 justify-center">
         <li

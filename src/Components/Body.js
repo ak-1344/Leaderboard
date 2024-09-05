@@ -21,9 +21,9 @@ function Body() {
   return (
     <div className="p-8 h-full w-full overflow-hidden">
       <h2 className="text-2xl font-semibold mb-4">Body Section</h2>
-      <div className="w-full overflow-y-hidden flex-row flex justify-around">
+      <div className="w-full flex-row flex items-center justify-evenly">
       <Stage data={data}  />
-      <Table />
+      <Table data={data} />
       </div>
     </div>
   );
